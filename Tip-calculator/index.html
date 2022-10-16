@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    
+    <div id="forms">
+        <div>
+            <p>Bill total</p>
+            <span>$ </span><input type="text" id="input-one" oninput="print()">
+        </div>
+
+        <div>
+            <p>Tip</p>
+            <span>% </span><input type="text" id="input-two" oninput="print()">
+        </div>
+
+        <div id="calculation">
+           <div>
+            <p>people</p>
+                <button id="incriment-people" onclick="incriment()">+</button>
+                <span id="people">1</span>
+                <button id="decriment-people" onclick="decriment()">-</button>
+            </div>
+
+            <div id="calculation-total">
+                <p>total per person</p>
+                <span>$ </span> <span id="total">0</span>
+            </div>
+        </div>
+        
+
+    </div>
+
+
+	<script src="script.js"></script>
+</body>
+
+</html>
