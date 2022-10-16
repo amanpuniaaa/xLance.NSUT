@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+#calculation{
+    display:flex;
+    flex-direction:row;
+    
+}
+
+#calculation-total{
+    margin-left:5vw;
+}
